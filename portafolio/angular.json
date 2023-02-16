@@ -25,9 +25,12 @@
               "src/assets"
             ],
             "styles": [
+              "frontEnd/portafolio/node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "frontEnd/portafolio/node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -94,5 +97,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "d60d6418-02b9-41dc-b99f-f1859c9fca12"
   }
 }
