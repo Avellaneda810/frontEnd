@@ -1,0 +1,17 @@
+div{
+    background-color: #cccc;
+}
+.logoAP{
+        width:150px;
+    }
+/* aqui le añado estilos al div con la imagen de fondo para que esta se alargue y tome la imagen de fondo hasta el final de la pagina */
+
+.fondoWeb{
+    padding-top: 0.5%;
+    padding-bottom: 25%;
+    background-image:url(../../../assets/imgBackGround.jpg);
+    background-color: #cccc;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vw;
+}
