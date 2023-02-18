@@ -13,8 +13,9 @@ h6{
     #fotoPerfil{
         position: absolute;
         width: 15%;
+        height: 30%;
         left: 2%;
-        top: 484px;
+        top: 500px;
         border-color: #202020e1;
         border-style: groove;
     }
@@ -22,17 +23,9 @@ h6{
         #fotoPerfil{
             position: absolute;
             width: 15%;
+            height: 30%;
             left: 2%;
-            top: 400px;
-            border-color: #202020e1;
-            border-style: groove;
-        }
-    }
-    @media(max-width: 575px ){
-        #fotoPerfil{
-            position: absolute;
-            width: 30%;
-            left: 50%;
+            top: 435px;
             border-color: #202020e1;
             border-style: groove;
         }
