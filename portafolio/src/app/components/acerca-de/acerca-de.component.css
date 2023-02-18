@@ -1,3 +1,40 @@
 div{
-    background-color: #cccc;
+    background-color: #202020e1;
+    text-align: center;
+}
+h6{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.row{
+    color: #ccc;
+}
+@media(min-width: 576px){
+    #fotoPerfil{
+        position: absolute;
+        width: 15%;
+        left: 2%;
+        top: 484px;
+        border-color: #202020e1;
+        border-style: groove;
+    }
+    @media (min-width: 847px){
+        #fotoPerfil{
+            position: absolute;
+            width: 15%;
+            left: 2%;
+            top: 400px;
+            border-color: #202020e1;
+            border-style: groove;
+        }
+    }
+    @media(max-width: 575px ){
+        #fotoPerfil{
+            position: absolute;
+            width: 30%;
+            left: 50%;
+            border-color: #202020e1;
+            border-style: groove;
+        }
+    }
 }
