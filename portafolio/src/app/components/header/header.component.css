@@ -3,8 +3,14 @@ div{
 }
 img{
     width: 50px;
-    padding: 0,5px;
-    margin-top: 5px;
+}
+#instagram{
+    float: right;
+    margin-top: 20px;
+}
+#github{
+    float: right;
+    margin-top:20px;
 }
 .logoAP{
         width:150px;

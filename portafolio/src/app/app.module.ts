@@ -11,6 +11,8 @@ import { ExperienciaComponent } from './components/experiencia/experiencia.compo
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { BannerComponent } from './components/banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -22,11 +24,13 @@ import { ContactoComponent } from './components/contacto/contacto.component';
     ExperienciaComponent,
     ProyectosComponent,
     FooterComponent,
+    BannerComponent,
     ContactoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
