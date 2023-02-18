@@ -1,6 +1,11 @@
 div{
     background-color: #cccc;
 }
+img{
+    width: 50px;
+    padding: 0,5px;
+    margin-top: 5px;
+}
 .logoAP{
         width:150px;
 }
