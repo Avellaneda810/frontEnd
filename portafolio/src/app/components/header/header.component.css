@@ -1,20 +1,25 @@
 div{
     background: #202020e1;
+    color: #ccc;
 }
-.row{
-
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+a{
+    padding: 5px;
+}
+.redes{
+    display: contents;
 }
 img{
     width: 50px;
 }
-#instagram{
-    float: right;
-    margin-top: 20px;
-}
-#github{
-    float: right;
-    margin-top:20px;
-}
+    
 .logoAP{
         width:150px;
 }

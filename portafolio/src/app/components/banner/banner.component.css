@@ -1,5 +1,9 @@
+.row{
+    background: #202020e1;
+}
 #banner{
-    padding:15px;
+   
+    padding-left:20px;
     width: 100%;
     height: 500px;
 }
