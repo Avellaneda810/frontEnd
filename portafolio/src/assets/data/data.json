@@ -57,40 +57,52 @@
         "duracion":"190 horas"
     }],
     "habilidades":[{
+        "name":"JAVA",
+        "porcentaje":"86%"
+    },
+    {
         "name":"HTML",
-        "porcentaje":"70%"
+        "porcentaje":"75%"
     },
     {
         "name":"CSS",
-        "porcentaje":"65%"
-    },
-    {
-        "name":"JAVASCRIPT",
-        "porcentaje":"60%"
+        "porcentaje":"73%"
     },
     {
         "name":"TYPESCRIPT",
-        "porcentaje":"60%"
+        "porcentaje":"70%"
     },
     {
         "name":"ANGULAR",
-        "porcentaje":"65%"
+        "porcentaje":"72%"
     },
     {
-        "name":"JAVA",
-        "porcentaje":"85%"
+        "name":"BOOTSTRAP",
+        "porcentaje":"43%"
+    },
+    {
+        "name":"SPRINGBOOT",
+        "porcentaje":"66%"
     },
     {
         "name":"MYSQL",
-        "porcentaje":"50%"
+        "porcentaje":"46%"
+    },
+    {
+        "name":"TESTING QA",
+        "porcentaje":"53%"
     },
     {
         "name":"GITHUB",
-        "porcentaje":"55%"
+        "porcentaje":"57%"
     },
     {
         "name":"INGLES",
-        "porcentaje":"65%"
+        "porcentaje":"69%"
+    },
+    {
+        "name":"COOPERACION",
+        "porcentaje":"79%"
     }],
     "proyecto":[{
         "name":"Porfolio",
