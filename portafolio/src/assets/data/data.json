@@ -19,7 +19,7 @@
         "position":"Proyecto Portafolio",
         "company": "Argentina Programa",
         "image":"./logoAP",
-        "mode":"Virtual, Asincronico",
+        "mode":"Virtual, sincronico",
         "inicio":"2022",
         "final":"2023"
     }],
@@ -109,7 +109,7 @@
         "company":"Argentina Programa",
         "descripcion":"Para este portafolio se usaron tecnologias como Angular, Java, Springboot, Node Js, entre otras",
         "img":"",
-        "start":"2023",
+        "start":"2022",
         "end":"2023",
         "duracion":"256 horas"
     }]
