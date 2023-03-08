@@ -3,27 +3,23 @@
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <h5>Proyectos</h5>
         <ul>
-            <li>
-                <h6>Nombre Proyecto 1</h6>
-                <h6>Descripcion:</h6>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, dicta molestias. Nisi aliquid sequi ad quisquam vel consequuntur in, exercitationem, ea id facere expedita minima voluptates distinctio qui mollitia ratione.</p>
-                <img src="" alt="">
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <h6>Nombre Proyecto 2</h6>
-                <h6>Descripcion:</h6>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, dicta molestias. Nisi aliquid sequi ad quisquam vel consequuntur in, exercitationem, ea id facere expedita minima voluptates distinctio qui mollitia ratione.</p>
-                <img src="" alt="">
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <h6>Nombre Proyecto 3</h6>
-                <h6>Descripcion:</h6>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, dicta molestias. Nisi aliquid sequi ad quisquam vel consequuntur in, exercitationem, ea id facere expedita minima voluptates distinctio qui mollitia ratione.</p>
-                <img src="" alt="">
+            <li *ngFor="let proyecto of proyectosList">
+                <div class="data-container">
+                        <div class="list-info">
+                            <div>
+                                <h6>{{proyecto.name}}</h6>
+                                <h6>{{proyecto.company}}</h6>
+                                <h6>{{proyecto.descripcion}}</h6> 
+                                <h6><time>{{proyecto.start}}</time> - <time>{{proyecto.end}}</time></h6>
+                                <h6>{{proyecto.duracion}}</h6> 
+                            </div>
+                        </div>
+                </div>
+                <div class="data-control">
+                    <div class="btn-edit">
+                        <a href="" class="btn-right"><i class="fa fa-pen"></i></a>
+                    </div>
+                </div>
             </li>
         </ul>
     </div>

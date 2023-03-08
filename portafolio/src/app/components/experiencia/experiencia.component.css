@@ -1,12 +1,18 @@
 div{
     background: #202020e1;
     text-align: left;
+    color: #ccc;
+}
+li{
+    color: #ccc;
 }
 h5{
     margin-left: 10px;
+    color: #ccc;
 }
 h6{
     margin-left: 5px;
+    color: #ccc;
 }
 .row{
     padding: 10px;

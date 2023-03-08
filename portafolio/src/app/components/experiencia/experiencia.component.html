@@ -4,24 +4,22 @@
     </h5>
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <ul>
-            <li>
-                <h6>Trabajo 1 (Periodo)</h6>
-                <h6>Descripcion:</h6>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, nobis molestias, possimus debitis ex incidunt laudantium animi, maxime at reiciendis error magnam perspiciatis aliquam consequatur non consectetur impedit facere? Fuga.</p>
-            </li>
-        </ul>
-        <ul>
-            <li>   
-                <h6>Trabajo 2 (Periodo)</h6>
-                <h6>Descripcion:</h6>
-                <p>Lorem ipsum se voluptate assumenda officiis sit quo! Impedit praesentium minima quod harum quae enim quo esse consequuntur.</p>
-            </li>
-        </ul>
-        <ul>
-            <li>  
-                <h6>Trabajo 3 (Periodo)</h6>
-                <h6>Descripcion:</h6>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga mollitia recusandae sed dolorem a illum laboriosam quas quasi repudiandae? Asperiores voluptas praesentium, perspiciatis eligendi rerum maxime eius architecto obcaecati dolorem.</p>
+            <li *ngFor="let experiencia of experienciaList">
+                <div class="data-container">
+                        <div class="list-info">
+                            <div>
+                                <h6>{{experiencia.position}}</h6>
+                                <h6>{{experiencia.company}}</h6>
+                                <h6>{{experiencia.mode}}</h6> 
+                                <h6><time>{{experiencia.inicio}}</time> - <time>{{experiencia.final}}</time></h6>
+                            </div>
+                        </div>
+                </div>
+                <div class="data-control">
+                    <div class="btn-edit">
+                        <a href="" class="btn-right"><i class="fa fa-pen"></i></a>
+                    </div>
+                </div>
             </li>
         </ul>
     </div>

@@ -1,0 +1,104 @@
+{
+    "name": "Angel Gabriel Avellaneda",
+    "backImage": "/banner.jpg",
+    "image": "./perfiFoto.webp",
+    "position": "Desarrollador Full Stack Jr.",
+    "company": {
+       "name": "Argetina Programa 2022/2023",
+       "image": "",
+       "url": ""
+    },
+    "school": {
+        "name": "Universidad Nacional del Comahue",
+       "image": "",
+       "url": ""
+    },
+    "ubication":"General Fernandez Oro, Rio Negro",
+    "about": "Estudiante de Licenciatura en Sistemas de Información",
+    "experiencia":[{
+        "position":"Proyecto Portafolio",
+        "company": "Argentina Programa",
+        "image":"./logoAP",
+        "mode":"Virtual, Asincronico",
+        "inicio":"2022",
+        "final":"2023"
+    }],
+    "educacion": [{
+        "school":"Universidad Nacional del Comahue",
+        "title":"Licenciatura",
+        "img":"",
+        "carrer":"Licenciatura en Sistemas de Información",
+        "mode":"Presencial",
+        "score":"",
+        "start":"2021",
+        "end":"en curso",
+        "duracion":"5 años"
+    },
+    {
+        "school":"Programa Nacional Argentina Programa",
+        "title":"Desarrollador",
+        "mode":"Virtual, sincronico",
+        "img":"",
+        "carrer":"Full Stack Developer Jr.",
+        "score":"",
+        "start":"2022",
+        "end":"en curso",
+        "duracion":"480 horas"
+    },
+    {
+        "school":"Egg Cooperation",
+        "title":"Tester",
+        "mode":"Virtual, sincronico",
+        "img":"",
+        "carrer":"Testing QA",
+        "score":"",
+        "start":"2022",
+        "end":"en curso",
+        "duracion":"190 horas"
+    }],
+    "habilidades":[{
+        "name":"HTML",
+        "porcentaje":"70%"
+    },
+    {
+        "name":"CSS",
+        "porcentaje":"65%"
+    },
+    {
+        "name":"JAVASCRIPT",
+        "porcentaje":"60%"
+    },
+    {
+        "name":"TYPESCRIPT",
+        "porcentaje":"60%"
+    },
+    {
+        "name":"ANGULAR",
+        "porcentaje":"65%"
+    },
+    {
+        "name":"JAVA",
+        "porcentaje":"85%"
+    },
+    {
+        "name":"MYSQL",
+        "porcentaje":"50%"
+    },
+    {
+        "name":"GITHUB",
+        "porcentaje":"55%"
+    },
+    {
+        "name":"INGLES",
+        "porcentaje":"65%"
+    }],
+    "proyecto":[{
+        "name":"Porfolio",
+        "company":"Argentina Programa",
+        "descripcion":"Para este portafolio se usaron tecnologias como Angular, Java, Springboot, Node Js, entre otras",
+        "img":"",
+        "start":"2023",
+        "end":"2023",
+        "duracion":"256 horas"
+    }]
+}
